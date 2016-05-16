@@ -19,6 +19,23 @@ Before usage:
   - <AllowedMethod>POST</AllowedMethod>
   - <AllowedHeader>*</AllowedHeader>
 
+Usage
+
+
+```
+var conv = require('direct-upload-s3');
+
+var app = express();
+app.get('/conv', function (req, res) {
+  var base64Policy = conv.getBase64Policy(...);
+  var signature = conv.getSignature(base64Policy);
+  var formParams = conv.getFormParams(..., signature, base64Policy);
+  res.json(formParams);
+});
+
+// see details in example files
+```
+
 
 To run example
 

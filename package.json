@@ -1,17 +1,33 @@
 {
   "name": "direct-upload-s3",
-  "version": "0.2.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Upload files directly to AWS S3: multiple, ajax",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanRave/direct-upload-s3.git"
+  },
   "author": "IvanRave",
-  "license": "ISC",
+  "keywords": [
+    "s3",
+    "aws",
+    "upload",
+    "directly",
+    "ajax",
+    "multiple"
+  ],
+  "license": "Apache-2.0",
   "dependencies": {
     "moment": "2.x"
   },
   "devDependencies": {
     "express": "4.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/IvanRave/direct-upload-s3/issues"
+  },
+  "homepage": "https://github.com/IvanRave/direct-upload-s3#readme"
 }
