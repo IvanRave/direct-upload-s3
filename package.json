@@ -1,0 +1,17 @@
+{
+  "name": "direct-upload-s3",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "IvanRave",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "2.x"
+  },
+  "devDependencies": {
+    "express": "4.x"
+  }
+}
